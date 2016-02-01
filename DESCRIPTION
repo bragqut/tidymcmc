@@ -1,7 +1,7 @@
 Package: tidymcmc
 Type: Package
 Title: Turning MCMC Summaries Into Tidy Data Frames
-Version: 0.12
+Version: 0.13
 Date: 2016-02-01
 Author: Sam Clifford
 Maintainer: Sam Clifford <samuel.clifford@qut.edu.au>
@@ -9,4 +9,5 @@ Description: Takes an mcmc.list object and turns it into a data.frame object in 
 License: What license is it under?
 LazyData: TRUE
 RoxygenNote: 5.0.1
-Imports: coda
+Imports: coda,
+    broom

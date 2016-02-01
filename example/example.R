@@ -17,4 +17,8 @@ example.p <- rjags::coda.samples(model = example.m,
                           n.iter = 1e4,
                           variable.names=c("mu","sd"))
 
-example.s <- tidy.mcmc(example.p)
+example.s <- tidy(example.p)
+example.s
+
+dev.new()
+plot(example.p)
